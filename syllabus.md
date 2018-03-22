@@ -62,13 +62,13 @@ We will use a listserv both to conduct discussions outside of class, and for any
 
 Go [here](https://groups.google.com/forum/#!forum/the-api-of-you) and click "Apply for membership"
 
-**Reminder About Technical Questions** Always email the listserv email (not me directly!). People often have similar questions, so it's helpful for all to see your questions: (email: the-api-of-you@googlegroups.com)
+**Reminder About Technical Questions** Always email the listserv email (not me directly!). People often have similar questions, so it's helpful for everyone to see your questions: (email: the-api-of-you@googlegroups.com)
 
 
 Laptops
 -------
 
-This class covers numerous Web programming topics, and as a result, we will use laptops extensively throughout class time. However, use of the computer outside of class topics (for example, chatting on Gmail, compulsively checking Facebook/Twitter, etc.) is disrespectful and repeated violations will be met with 1) requests to close your laptop and 2) requests to leave class if you are consistently disengaged.
+This class covers numerous Web programming topics, and as a result, we will use laptops extensively throughout class time. However, use of the computer outside of class topics (for example, chatting on Gmail, compulsively checking Facebook/Twitter, etc.) is disrespectful and repeated violations will be met with 1) requests to close your laptop and 2) requests to leave class if it becomes a persistent problem.
 
 Also - while your classmates are presenting, it is **mandatory** to put your laptop lid down and focus all of your attention on your colleague's presentation.
 
@@ -115,11 +115,10 @@ While not specifically required for the class, you may find the following tutori
 Week-by-Week Topics & Assignments
 =================================
 
-Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON, Dashboard Example
------------------------------------------------------------------------------------------------
-* Class Exercise: get to know eachother via data collection
-    * Download [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
-    * Get the following information from your partner, which we will POST to our API:
+Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON and Building a Dashboard Example
+-----------------------------------------------------------------------------------------------------
+* Class Intro: get to know eachother via data collection
+    * Get the following information from your partner, which we will build our first data file from:
         * name
         * imageURL
         * homeMilesFromNyc
@@ -129,27 +128,25 @@ Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON, Da
     * Instructor/Topic Intro
     * Syllabus Overview
 * Design Topic: Examples & Inspiration for the class
-    * **Self-tracking Projects**
-        * [Feltron Annual Reports](http://feltron.com/)
-        * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
-        * [Reporter App to self track](http://www.reporter-app.com/)
-        * [Gyroscope - Dashboard of You](https://gyrosco.pe/)
-        * [AprilZero - Self-Tracking Dashboard](https://aprilzero.com/)
-        * [Wellness Mirror - Physical](http://itp.nyu.edu/~msd403/blog/?p=1301)
-        * [Glance - Physical](http://www.natashadzurny.com/blog/glance/)
+    * [Feltron Annual Reports](http://feltron.com/)
+    * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
+    * [Reporter App to self track](http://www.reporter-app.com/)
+    * [Gyroscope - Dashboard of You](https://gyrosco.pe/)
+    * [AprilZero - Self-Tracking Dashboard](https://aprilzero.com/)
+    * [Jingwen Zhu](http://www.jingwen-zhu.com/#/every-little-thing/)
+    * [Wellness Mirror - Physical](http://itp.nyu.edu/~msd403/blog/?p=1301)
+    * [Glance - Physical](http://www.natashadzurny.com/blog/glance/)
 
 **BREAK**
 
 * Technical topics:
     * Quick intro to JSON (JSON is the data format we will work with all semester):
-        * [Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
-    * HTML/CSS/JS 101 (Dashboard example): a wellformed page and simple script. How to structure a Web project.
-        * Create project folder (index.html, css, images, js)
-        * Code is at https://github.com/sslover/designing-for-data-personalization/tree/master/week1/instagram-html-css-demo.
+        * [Sample JSON](https://github.com/sslover/api-of-you/blob/master/week1/sam.json)
+    * Class Dashboard Example
+        * Code is at....
     * List of Useful Tools
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
-        * [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
         * [JSONView](https://chrome.google.com/webstore/detail/jsonview)
         * [Sublime Text Editor](http://www.sublimetext.com/3),
         * [Bootstrap HTML/CSS/JS Framework](http://getbootstrap.com/)
@@ -162,20 +159,19 @@ Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON, Da
     * Set up your class blog. Email slover@nyu.edu with the link.
     * Download useful tools:
         * [JSONView - Chrome Extension That Formats JSON](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
-        * [POSTMAN - Chrome Extension That Simulates API requests](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en)
         * [Sublime Text Editor](http://www.sublimetext.com/3)
     * Read about JSON:
         * [A Non-Programmer's Introduction to JSON](http://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/)
         * [Examples of JSON files](http://www.sitepoint.com/10-example-json-files/)
-        * [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
+        * [Sam's Sample JSON](https://github.com/sslover/api-of-you/blob/master/week1/sam.json)
     * Using the above examples as a starting place, create a simple JSON file on any dataset. Don't overthink it, something simple is fine... but it should be something that is interesting to you. Examples could be:
-        * make your CV/resume into JSON.. example: [Sam's Sample JSON](https://github.com/sslover/designing-for-data-personalization/blob/master/week1/sam.json)
+        * make your CV/resume into JSON.. example: [Sam's Sample JSON](https://github.com/sslover/api-of-you/blob/master/week1/sam.json)
         * create a list of your pets - name, the year you got them, color, weight;
         * create a list of vacations you've been on - location, year, companions, favorite activity;
         * compile information about your family - relationship, name, year born, current location;
         * create a list of your favorite bands - year founded, list of albums, awards won, links to songs;
     * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create and then **post it to your class blog**
-    * If all of the above was very easy for you, write a simple Javascript program that renders your JSON from above onto a Webpage.
+    * If all of the above was very easy for you, write a simple Javascript program that renders your JSON from above onto a Webpage in an interesting way
 
 Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 ------------------------------------------------------------------
@@ -185,7 +181,7 @@ Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
 
 * Technical Topics
 
-    * Updating the DOM with JS example
+    * Updating the DOM with JS example (continue from last week)
     * P5js example
     * Chartjs Example
 
@@ -203,13 +199,13 @@ Week 3 - Getting Started with Node.js
 * Assignment
 
     * Read about [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
-    * Get the boilerplate up and running.
+    * Get the boilerplate app completely up and running.
 
 Week 4 - More Node.js (Routing, Models, Schemas, oh my!)
 --------------------------------------------------------
 
 * Propose your final! Which dataset will you track and why? What are you thinking of building?
-* More Nodejs/Mongo/Express examples (routing, models, schemas)
+* Deep dive into Nodejs/Mongo/Express examples (routing, models, schemas)
 * AJAX example of consuming your own API
 
 * Assignment
@@ -220,6 +216,7 @@ Week 4 - More Node.js (Routing, Models, Schemas, oh my!)
 Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
 ----------------------------------------------------------------------------
 
+* Continue covering Node/Mongo/Express
 * NPM module example
 * S3 file storage example
 * SMS example
