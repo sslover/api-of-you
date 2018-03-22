@@ -1,5 +1,5 @@
-Designing for Data Personalization
-==================================
+The API of You"
+===============
 
 Syllabus and code resources for NYU ITP class "The API of You"
 
