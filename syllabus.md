@@ -118,7 +118,7 @@ Week-by-Week Topics & Assignments
 Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON and Building a Dashboard Example
 -----------------------------------------------------------------------------------------------------
 * Class Intro: get to know eachother via data collection
-    * Get the following information from your partner, which we will build our first data file from:
+    * Get the following information from your partner, which we will use to build our first data file:
         * name
         * imageURL
         * homeMilesFromNyc
@@ -130,12 +130,14 @@ Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON and
 * Design Topic: Examples & Inspiration for the class
     * [Feltron Annual Reports](http://feltron.com/)
     * [WrapGenius - Personalized Journey Into Food](http://wrapgenius.me/)
+        * [Example Food API Endpoint](http://www.wrapgenius.me/api/allFood)
+        * [Example Ingredient API Endpoint](http://www.wrapgenius.me/api/ingredients)
     * [Reporter App to self track](http://www.reporter-app.com/)
     * [Gyroscope - Dashboard of You](https://gyrosco.pe/)
     * [AprilZero - Self-Tracking Dashboard](https://aprilzero.com/)
     * [Jingwen Zhu](http://www.jingwen-zhu.com/#/every-little-thing/)
     * [Wellness Mirror - Physical](http://itp.nyu.edu/~msd403/blog/?p=1301)
-    * [Glance - Physical](http://www.natashadzurny.com/blog/glance/)
+    * [Glance - Physical](http://just-glance.com/)
 
 **BREAK**
 
