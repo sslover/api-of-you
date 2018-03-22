@@ -1,0 +1,59 @@
+/**************/
+/* Custom CSS */
+/**************/
+
+body{
+	background-color: #36394a;
+	color: #6af6ff;
+	font-family: 'Quattrocento Sans';
+}
+
+canvas {
+	width: 100%;
+}
+
+.stats-holder{
+	float: left;
+  padding: 15px 15px 0px 0px;
+  color: #fff;
+  display: block;
+}
+
+.stats-holder span{
+	font-size: 70px;
+}
+
+#cookedCount {
+	color: #d7db0a;
+}
+
+#boughtCount {
+	color: #fe6e6e;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+/* LEGEND CSS */
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li span{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;	
+}
+
+.legend{
+	float: right;
+	color: #fff;
+}
+
+/* LEGEND CSS */
