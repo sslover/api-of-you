@@ -6,7 +6,7 @@ Overview
 - **Office Hours** - Wednesday 7-9 and virtual office hours if you absolutely cannot make the Weds time (but please use in person time as much as possible).
 Signup at [Google Calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUtad0RGeVgzU0pxfGRlZmF1bHR8MzE4NGE0MjVkOTZkY2RjMTdmMmE2ZDlmYTRhMjcyMWY)
 - **Group/Listserv**: Go [here](https://groups.google.com/forum/#!forum/the-api-of-you) and click "Apply for membership"
--- **Technical Questions** Always email the listserv email (not me directly!). People often have similar questions, so it's helpful for all to see your questions: (email: the-api-of-you@googlegroups.com)
+- **Technical Questions** Always email the listserv email (not me directly!). People often have similar questions, so it's helpful for everyone to see your questions: (email: the-api-of-you@googlegroups.com)
 
 Description
 --------------------------------
