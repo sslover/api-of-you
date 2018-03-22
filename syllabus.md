@@ -22,7 +22,7 @@ You will have 2 main projects to complete over the course of 6 weeks:
 
 1. **Project 1 (Midterm - Due in Week 3) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Be prepared to discuss 1) why you chose to collect this data; 2) how you collected it; and 3) what you built, how you built it, and the design choices you made along the way.
 
-2. **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 7 days (ideally longer). Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your RESTful API publicly accessible (i.e. you must provide documentation or a guide to your API)
+2. **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 7 days (ideally longer). Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your API publicly accessible (i.e. you must provide documentation or a guide to your API)
 
 Objectives
 ---------------------
@@ -226,7 +226,7 @@ Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
 
 * Assignment
 
-    * **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 7 days (ideally longer). Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your RESTful API publicly accessible (i.e. you must provide documentation or a guide to your API)
+    * **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 7 days (ideally longer). Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your API publicly accessible (i.e. you must provide documentation or a guide to your API)
 
 Week 6
 -------
