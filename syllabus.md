@@ -146,7 +146,7 @@ Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON and
     * Quick intro to JSON (JSON is the data format we will work with all semester):
         * [Sample JSON](https://github.com/sslover/api-of-you/blob/master/week1/sam.json)
     * Class Dashboard Example
-        * Code is at....
+        * Code is at: [Code for Dashboard Example](https://github.com/sslover/api-of-you/tree/master/week1/class-dashboard-example)
     * List of Useful Tools
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
