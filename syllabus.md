@@ -1,4 +1,4 @@
-Designing for Data Personalization Syllabus
+The API of You Syllabus
 ============================================
 Overview
 ---------------------
