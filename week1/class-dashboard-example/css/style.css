@@ -1,0 +1,161 @@
+/**************/
+/* Custom CSS */
+/**************/
+
+body {
+    height:100vh;
+    background-color: #AA5FFC;
+    font-family: 'Muli', sans-serif;
+    color: #232F5B;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 64px 32px;
+}
+
+.title {
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #fff;
+    text-align: center;
+}
+
+.title span {
+    color: #91ECD1;
+}
+
+#cardHolder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #E9EAEE;
+    border-radius: 8px;
+    max-width: 360px;
+    min-width: 320px;
+    margin-right: 16px;
+    margin-top: 16px;
+
+    padding: 16px;
+    align-items: center;
+}
+
+.border {
+    border-bottom: 1px solid #EEEFF2;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.header img {
+    border-radius: 100px;
+    width: 128px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px 0;
+    align-items: center;
+}
+
+.statsHolder {
+    text-align: center;
+}
+
+.regularFont {
+    font-size: 18px;
+}
+
+.largeFont {
+    font-size: 36px;
+}
+
+.subtext {
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.jsViz {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  align-items: center;
+}
+
+.barChart {
+    flex-basis: 60%;
+    height: 8px;
+    background-color: #ECECEC;
+    position: relative;
+}
+
+.bar {
+    height: 8px;
+    background-color: #25DFAC;
+    position: absolute;
+    width: 80%;
+}
+
+.jsStats {
+    flex-basis: 30%;
+    margin-left: 12px;
+    justify-content: center;
+    text-align: center;
+}
+
+.interests {
+    padding: 16px 0 8px;
+}
+
+.heading {
+    font-size: 12px;
+    color: rgba(35,47,91,0.50);
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tagHolder {
+    align-items: center;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.tag {
+    font-size: 10px;
+    text-align: center;
+    border-radius: 100px;
+    letter-spacing: 1.5px;
+    background-color: #ECECEC;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 0 6px;
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+       "name" : "Sam Slover",
+        "imageURL": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAy7AAAAJDZjYzM5YjdkLTY4ZjctNDEyNy04YzQxLWUyMWQwZGI0ZGIyOA.jpg",
+        "homeLocation": "Atlanta, GA",
+        "homeMilesFromNyc": 861,
+        "dataInterest": "Health",
+        "jsLevel": 8
+    },
+    {
+       "name" : "Sam Slover",
+        "imageURL": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAy7AAAAJDZjYzM5YjdkLTY4ZjctNDEyNy04YzQxLWUyMWQwZGI0ZGIyOA.jpg",
+        "homeLocation": "Atlanta, GA",
+        "homeMilesFromNyc": 861,
+        "dataInterest": [],
+        "jsLevel": 8
+    },
+    {
+       "name" : "Sam Slover",
+        "imageURL": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAy7AAAAJDZjYzM5YjdkLTY4ZjctNDEyNy04YzQxLWUyMWQwZGI0ZGIyOA.jpg",
+        "homeLocation": "Atlanta, GA",
+        "homeMilesFromNyc": 861,
+        "dataInterest": [],
+        "jsLevel": 8
+    }
+]
+

@@ -121,6 +121,7 @@ Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON and
     * Get the following information from your partner, which we will use to build our first data file:
         * name
         * imageURL
+        * homeLocation
         * homeMilesFromNyc
         * dataInterest
         * jsLevel (1 to 10)
@@ -150,7 +151,9 @@ Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON and
         * [HTML Shell](http://htmlshell.com/)
         * [JSONLint](http://jsonlint.com/)
         * [JSONView](https://chrome.google.com/webstore/detail/jsonview)
-        * [Sublime Text Editor](http://www.sublimetext.com/3),
+        * [Sublime Text Editor](http://www.sublimetext.com/3)
+        * [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+        * [Flexbox Cheat Sheet](https://yoksel.github.io/flex-cheatsheet/)
         * [Bootstrap HTML/CSS/JS Framework](http://getbootstrap.com/)
         * [WrapBootstrap - Bootstrap Themes](https://wrapbootstrap.com)
         * [Google Fonts](https://www.google.com/fonts)
