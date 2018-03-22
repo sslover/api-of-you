@@ -1,4 +1,4 @@
-The API of You"
+The API of You
 ===============
 
 Syllabus and code resources for NYU ITP class "The API of You"
