@@ -20,9 +20,9 @@ Class examples will be presented in Javascript. Javascript tutorials will be ass
 
 You will have 2 main projects to complete over the course of 6 weeks:
 
-1. Project 1 (Midterm - Due in Week 3) - The Dashboard of You. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Be prepared to discuss 1) why you chose to collect this data; 2) how you collected it; and 3) what you built and why (design choices, etc.)
+1. **Project 1 (Midterm - Due in Week 3)** - The Dashboard of You. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Be prepared to discuss 1) why you chose to collect this data; 2) how you collected it; and 3) what you built and why (design choices, etc.)
 
-2. Project 2 (Final - Due in Week 6) - Designing Around Your Own Data. Choose a dataset that you want to better understand and bring to life. Using your Node application, track that dataset over the course of at least 7 days (ideally longer). Your final project is to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your RESTful API publicly accessible (i.e. provide documentation or a guide to your API)
+2. **Project 2 (Final - Due in Week 6)** - Designing Around Your Own Data. Choose a dataset that you want to better understand and bring to life. Using your Node application, track that dataset over the course of at least 7 days (ideally longer). Your final project is to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your RESTful API publicly accessible (i.e. provide documentation or a guide to your API)
 
 Objectives
 ---------------------
