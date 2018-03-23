@@ -53,7 +53,7 @@ It is expected that everyone in the class will create and maintain a blog for th
 
 Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 
-* [Your Name Will Go Here](https://tisch.nyu.edu/itp)
+* [Nick Wallace](http://blog.nickwallace.us/tag/api-you)
 
 Listserv
 --------
