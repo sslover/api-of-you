@@ -53,7 +53,10 @@ It is expected that everyone in the class will create and maintain a blog for th
 
 Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 
-* [Nick Wallace](http://blog.nickwallace.us/tag/api-you)
+* [Nick](http://blog.nickwallace.us/tag/api-you)
+* [Joohyun](http://www.parkjoohyun.com/category/spring-2018/the-api-of-you/)
+* [Luna](https://wp.nyu.edu/luna/category/api-of-you/)
+
 
 Listserv
 --------
