@@ -196,7 +196,6 @@ Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
 
     * Updating the DOM with JS
     * P5js example
-    * Chartjs Example
     * python -m SimpleHTTPServer
         * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command (enter python -m SimpleHTTPServer and press enter). Then, go to http://localhost:8000/
 
@@ -211,7 +210,7 @@ Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
 
 Week 3 - Getting Started with Node.js
 -------------------------------------
-* Finish Web (p5/chartJS) examples
+* Chartjs Example
 * Set up "Hello World" node.js app together. Basics of a node/mongo/express app.
 
 * Assignment
