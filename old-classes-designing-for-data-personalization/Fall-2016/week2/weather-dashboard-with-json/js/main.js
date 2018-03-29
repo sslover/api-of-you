@@ -14,7 +14,7 @@ function init(){
 	      // let's create an array to store our location
 	      var placesToRender = [];
 
-	      // first, let's put in the array of otherLocations I've been to	      
+	      // first, let's put in the array of otherLocations I've been to
 	      placesToRender = response.facts.otherLocations
 
 	      // but I also want my home location and current location
@@ -30,7 +30,7 @@ function init(){
 	      	geoCodeIt(e);
 	      })
 	    }
-	});	
+	});
 }
 
 function getWeather(event){
@@ -38,8 +38,8 @@ function getWeather(event){
 	var val = document.getElementById('theInput').value;
 	// if there is no value, or it is an empty string, prompt the user
 	if(!val || val=="") return alert("Enter a Location");
-	console.log("the value is " + val);	
-	// else, need to geocode it 
+	console.log("the value is " + val);
+	// else, need to geocode it
 	geoCodeIt(val)
 }
 
@@ -57,7 +57,7 @@ function geoCodeIt(location){
 	    success: function(response) {
 	      console.log('the geocode response is -- >');
 	      console.log(response);
-	      
+
 	      if(response.status=="ZERO_RESULTS") return alert ("Could not find that location");
 
 	      // now that we have the lat/lon details, can get the weather
@@ -98,7 +98,7 @@ function getTheWeatherAPI(location, lat, lon){
 
 function addCard(location, status, temp, icon){
 
-	var htmlToAppend = 
+	var htmlToAppend =
 	'<div class="card-container col-sm-4 col-md-4 centered">'+
 		'<div class="card">'+
 		  '<img src="img/'+icon+'.png">'+

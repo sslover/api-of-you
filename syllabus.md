@@ -56,7 +56,12 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Nick](http://blog.nickwallace.us/tag/api-you)
 * [Joohyun](http://www.parkjoohyun.com/category/spring-2018/the-api-of-you/)
 * [Luna](https://wp.nyu.edu/luna/category/api-of-you/)
-
+* [Jenna](http://www.xujenna.com/itp_blog/category/api-of-you/)
+* [Jade](https://github.com/HereIsJade/API-of-you-hw)
+* [Jesse](https://jessesimpson.tumblr.com/apiofyou)
+* [Kellee](http://www.kellee.tech/category/api-of-you/)
+* [Simon](http://www.simonmarqvard.com/2018/03/29/creating-your-own-api/)
+* [Zahra](https://wp.nyu.edu/zahra_k_itp/api-of-you/)
 
 Listserv
 --------
@@ -181,38 +186,45 @@ Week 1 -- Introduction, Welcome to the Web & Web APIs: HTML/CSS Primer, JSON and
     * Use [JSON Lint](http://jsonlint.com) to validate the JSON you create and then **post it to your class blog**
     * If all of the above was very easy for you, write a simple Javascript program that renders your JSON from above onto a Webpage in an interesting way
 
-Week 2 -- Going deeper into Web - design, JS strategies, JSON 101
-------------------------------------------------------------------
-* Design Topic - Common Design Structures + Wireframing
-* Design Exercise/Sprint - Pen & Paper Wireframing
-* Color Theory in Data Visualization
+Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
+------------------------------------------------------------------------------
+* [Designing Around Data: Rules & Common Paradigms](https://docs.google.com/presentation/d/1C4yMAwX7m_HPoTyUQHgdOr2en-TGdmC0XTaVAToG7Xs/edit#slide=id.p)
+* [Isotype (picture language)](https://docs.google.com/presentation/d/16-c5uKJ_qW9OYymLvPcJYefLaBG7kFyYiJsC8-_nUj4/edit#slide=id.gc6f972163_0_0)
+* [Design Structures + Wireframing](https://docs.google.com/presentation/d/1Z8IH1punyYfVQJPUoqGlIQxWWyM_vkmxD_ByRWa1Dao/edit#slide=id.g1715287f9d_0_18)
 
 * Technical Topics
 
-    * Updating the DOM with JS example (continue from last week)
+    * Updating the DOM with JS
     * P5js example
     * Chartjs Example
+    * python -m SimpleHTTPServer
+        * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command (enter python -m SimpleHTTPServer and press enter). Then, go to http://localhost:8000/
 
 * Assignment
 
-    * **Project 1 (Midterm - Due in Week 3) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Be prepared to discuss 1) why you chose to collect this data; 2) how you collected it; and 3) what you built, how you built it, and the design choices you made along the way.
+    * Take your JSON from week 1 and write a simple JS script to take that data and place it on a Webpage
+
+    * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?)
+
+    * This week you must 1) decide which dataset you are collecting and come up with the structure of your JSON; 2) do a basic wireframe or sketch of your dashboard or idea (or, if you are using a different medium, please do a rough drawing); and 3) create a color palette and typography approach. Post the above to your blog.
 
 
 Week 3 - Getting Started with Node.js
 -------------------------------------
-* Lightning Round - Present Project 1
 * Finish Web (p5/chartJS) examples
-* Build "Hello World" node.js app together
+* Set up "Hello World" node.js app together. Basics of a node/mongo/express app.
 
 * Assignment
 
     * Read about [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
     * Get the boilerplate app completely up and running.
+    * Think about a few options of datasets you want to collect for your final.
+
+    * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?)
 
 Week 4 - More Node.js (Routing, Models, Schemas, oh my!)
 --------------------------------------------------------
-
-* Propose your final! Which dataset will you track and why? What are you thinking of building?
+* Lightning Round - Present Project 1 and let us know what you are thinking for your final! Which dataset will you track and why? What are you thinking of building?
 * Deep dive into Nodejs/Mongo/Express examples (routing, models, schemas)
 * AJAX example of consuming your own API
 
@@ -226,7 +238,6 @@ Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
 
 * Continue covering Node/Mongo/Express
 * NPM module example
-* S3 file storage example
 * SMS example
 
 * Assignment

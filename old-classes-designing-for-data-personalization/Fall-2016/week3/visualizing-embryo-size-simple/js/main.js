@@ -41,7 +41,7 @@ function drawEmbryos(){
 		if(e.week>=24&&e.week<26)fill(yellowColor);
 		if(e.week>=26)fill(greenColor);
 
-		
+
 		// draw the embryo
 		ellipse(xPos,yPos,embryoSize,embryoSize);
 		xPos+=offset;
