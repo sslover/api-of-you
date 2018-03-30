@@ -61,7 +61,12 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Jesse](https://jessesimpson.tumblr.com/apiofyou)
 * [Kellee](http://www.kellee.tech/category/api-of-you/)
 * [Simon](http://www.simonmarqvard.com/2018/03/29/creating-your-own-api/)
-* [Zahra](https://wp.nyu.edu/zahra_k_itp/api-of-you/)
+* [Zahra](https://wp.nyu.edu/zohreh/category/api-of-you/)
+* [Krizia](https://kernfern.wordpress.com/category/api-of-you/)
+* [Dani](http://blog.dani.kim)
+* [Till](https://apiofme.wordpress.com)
+* [Renee](https://www.reneevation.com/single-post/2018/03/29/MY-API)
+* [Simon](http://www.simonmarqvard.com/)
 
 Listserv
 --------

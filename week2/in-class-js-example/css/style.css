@@ -1,0 +1,136 @@
+/**************/
+/* Custom CSS */
+/**************/
+
+body {
+    background: #232F5B;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 64px 32px;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 4px 0;
+    opacity: 0.5;
+}
+
+#stats-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.stat {
+    margin: 0 24px;
+}
+
+.numeric-stat span {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.goal-subheading {
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+#day-holder {
+    margin-top: 64px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#day-holder .card {
+    background: #FFFFFF;
+    border: 1px solid rgba(35,47,91,0.06);
+    border-radius: 4px;
+    color: #212D6D;
+    margin: 16px 0;
+    padding: 32px;
+    display: flex;
+    text-align: left;
+}
+
+.left-holder {
+    width: 33%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid rgba(35,47,91,0.06);
+
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.right-holder {
+    margin-left: 32px;
+    width: 66%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.food-holder {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 1px solid rgba(35,47,91,0.06);
+    padding: 8px 0px;
+}
+
+.food-holder span {
+    font-size: 32px
+}
+
+@media (max-width: 767px) {
+    .stat {
+        margin: 0 16px;
+    }
+
+    .numeric-stat span {
+        font-size: 60px;
+        font-weight: 100;
+        opacity: 1;
+    }
+
+    .container {
+        padding: 16px 8px;
+    }
+
+    #day-holder .card {
+        flex-direction: column;
+    }
+
+    .left-holder {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .righth-holder {
+        width: 100%;
+        margin-left: 0px;
+    }
+}

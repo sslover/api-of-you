@@ -1,6 +1,10 @@
 // CUSTOM JS FILE //
 
 function init(){
+
+    // first, take user to bottom of page
+    document.body.scrollTop = document.body.scrollHeight;
+
     // on page load, load in our data from our json file
     $.ajax({
         url: './data/data.json',
