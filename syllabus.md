@@ -199,8 +199,8 @@ Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
 
 * Technical Topics
 
-    * Updating the DOM with JS
-    * P5js example
+    * [Updating the DOM with JS](https://github.com/sslover/api-of-you/tree/master/week2/in-class-js-example)
+    * [P5js example](https://github.com/sslover/api-of-you/tree/master/week2/p5js-example-food-tracker)
     * python -m SimpleHTTPServer
         * When working locally and making AJAX requests, you need to run on a simple server. cd into your project and folder and then run the above command (enter python -m SimpleHTTPServer and press enter). Then, go to http://localhost:8000/
 
