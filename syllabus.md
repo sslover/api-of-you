@@ -206,6 +206,8 @@ Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
 
 * Assignment
 
+    * [Review this useful resource for Jquery/JS](http://youmightnotneedjquery.com/)
+
     * Take your JSON from week 1 and write a simple JS script to take that data and place it on a Webpage
 
     * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?)
