@@ -217,13 +217,14 @@ Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
 
 Week 3 - Getting Started with Node.js
 -------------------------------------
+* Custom Chart Example
 * Chartjs Example
 * Set up "Hello World" node.js app together. Basics of a node/mongo/express app.
 
 * Assignment
 
     * Read about [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
-    * Get the boilerplate app completely up and running.
+    * Get the boilerplate app completely up and running locally and at Heroku: [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
     * Think about a few options of datasets you want to collect for your final.
 
     * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?)
@@ -234,9 +235,19 @@ Week 4 - More Node.js (Routing, Models, Schemas, oh my!)
 * Deep dive into Nodejs/Mongo/Express examples (routing, models, schemas)
 * AJAX example of consuming your own API
 
+Resources:
+* [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
+
+* [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
+
+* [Routing in express.js](http://expressjs.com/en/guide/routing.html)
+
+* [Mongoose Schemas](http://mongoosejs.com/docs/guide.html)
+
+
 * Assignment
 
-    * Build your first custom API
+    * Build your first basic API that renders JSON data
     * Post your final project to your blog. Start tracking your dataset.
 
 Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
