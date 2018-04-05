@@ -8,9 +8,9 @@ function init(){
 	buildDoughnutChart();
 }
 
-// see http://www.chartjs.org/docs/#line-chart-introduction
+// see http://www.chartjs.org/docs/latest/charts/line.html
 function buildLineChart(){
-	
+
 	// a chart can take 2 objects:
 	// 1. data - the data/information (required)
 	// 2. options - chart options (optional)
@@ -36,17 +36,17 @@ function buildLineChart(){
             backgroundColor: "rgba(107,185,240,0.2)",
             borderColor: "rgba(107,185,240,1)",
             pointBackgroundColor: "rgba(107,185,240,1)",
-            pointRadius: 5,            
+            pointRadius: 5,
             // the data values that actually get plotted
             data: [28, 48, 40, 19, 86, 27, 90]
         }
     ]
-	};	
+	};
 
 	// create chart options (this is optional)
 	// see list of options:
-	// global: http://www.chartjs.org/docs/#chart-configuration-creating-a-chart-with-options
-	// http://www.chartjs.org/docs/#line-chart-chart-options
+	// global: http://www.chartjs.org/docs/latest/configuration/
+	// http://www.chartjs.org/docs/latest/charts/line.html
 	var options = {
        title: {
             display: true,
@@ -54,13 +54,13 @@ function buildLineChart(){
        },
 	    tooltips: {
 	        backgroundColor: 'pink',
-	    }       
+	    }
    }
 
 	// NOW, we actually create the chart
 	// first, get the context of the canvas where we're drawing the chart
 	var ctx = document.getElementById("lineChart").getContext("2d");
-	
+
 	// now, create the line chart, passing in:
 	// 1. the type (required)
 	// 2. the data (required)
@@ -72,7 +72,7 @@ function buildLineChart(){
 	});
 }
 
-// see http://www.chartjs.org/docs/#bar-chart-introduction
+// see http://www.chartjs.org/docs/latest/charts/bar.html
 function buildBarChart(){
 
 	// a chart can take 2 objects:
@@ -104,29 +104,32 @@ function buildBarChart(){
 
 	// create chart options (this is optional)
 	// see list of options:
-	// http://www.chartjs.org/docs/#bar-chart-chart-options
+	// http://www.chartjs.org/docs/latest/charts/bar.html
 	var options = {
-    tooltips: {
-        backgroundColor: 'pink',
-    }
-	} 
+        tooltips: {
+            backgroundColor: 'pink',
+        },
+        // legend: {
+        //     display: false
+        // }
+	}
 
 	// first, get the context of the canvas where we're drawing the chart
 	var ctx = document.getElementById("barChart").getContext("2d");
-	
+
 	// now, create the bar chart, passing in:
 	// 1. the type (required)
 	// 2. the data (required)
 	// 3. chart options (optional)
 	var myBarChart = new Chart(ctx, {
 	    type: 'bar',
-	    // type: 'horizontalBar', // horizontal bards
+	    //type: 'horizontalBar', // horizontal bards
 	    data: data,
 	    options: options
 	});
 }
 
-// see http://www.chartjs.org/docs/#doughnut-pie-chart-introduction
+// see http://www.chartjs.org/docs/latest/charts/doughnut.html
 function buildPieChart(){
 
 	// a chart can take 2 objects:
@@ -157,19 +160,19 @@ function buildPieChart(){
 
 	// create chart options (this is optional)
 	// see list of options:
-	// http://www.chartjs.org/docs/#doughnut-pie-chart-chart-options
+	// http://www.chartjs.org/docs/latest/charts/doughnut.html
 	var options = {
-    tooltips: {
-        backgroundColor: 'black',
-    },		
-    animation:{
-        animateRotate:true
-    }
-	} 
+        tooltips: {
+            backgroundColor: 'black',
+        },
+        animation:{
+            animateRotate:true
+        }
+	}
 
 	// first, get the context of the canvas where we're drawing the chart
 	var ctx = document.getElementById("pieChart").getContext("2d");
-	
+
 	// now, create the pie chart, passing in:
 	// 1. the type (required)
 	// 2. the data (required)
@@ -178,11 +181,11 @@ function buildPieChart(){
 	    type: 'pie',
 	    data: data,
 	    options: options
-	});	
+	});
 
 }
 
-// see http://www.chartjs.org/docs/#doughnut-pie-chart
+// see http://www.chartjs.org/docs/latest/charts/doughnut.html
 
 function buildDoughnutChart(){
 	// a chart can take 2 objects:
@@ -213,19 +216,19 @@ function buildDoughnutChart(){
 
 	// create chart options (this is optional)
 	// see list of options:
-	// http://www.chartjs.org/docs/#doughnut-pie-chart-chart-options
+	// http://www.chartjs.org/docs/latest/charts/doughnut.html
 	var options = {
-    tooltips: {
-        backgroundColor: 'black',
-    },		
-    animation:{
-        animateScale:true
-    }
-	} 
+        tooltips: {
+            backgroundColor: 'black',
+        },
+        animation:{
+            animateScale:true
+        },
+	}
 
 	// first, get the context of the canvas where we're drawing the chart
 	var ctx = document.getElementById("doughnutChart").getContext("2d");
-	
+
 	// now, create the pie chart, passing in:
 	// 1. the type (required)
 	// 2. the data (required)
@@ -234,5 +237,5 @@ function buildDoughnutChart(){
 	    type: 'doughnut',
 	    data: data,
 	    options: options
-	});		
+	});
 }
