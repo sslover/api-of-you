@@ -217,12 +217,13 @@ Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
 
 Week 3 - Getting Started with Node.js
 -------------------------------------
-* Custom Chart Example
-* Chartjs Example
+* [Custom Chart Example](https://github.com/sslover/api-of-you/tree/master/week3/custom-charts-food-tracker)
+* [Chartjs Example](https://github.com/sslover/api-of-you/tree/master/week3/chart-example)
+* [Chartjs Example Expanded](https://github.com/sslover/api-of-you/tree/master/week3/chart-example-expanded)
 
 **BREAK**
 
-* Set up "Hello World" node.js app together. Basics of a node/mongo/express app.
+* Set up node.js boilerplate together. Basics of a node/mongo/express app.
 
 * Assignment
 
