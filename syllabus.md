@@ -219,12 +219,13 @@ Week 3 - Getting Started with Node.js
 -------------------------------------
 * Custom Chart Example
 * Chartjs Example
+
+**BREAK**
+
 * Set up "Hello World" node.js app together. Basics of a node/mongo/express app.
 
 * Assignment
 
-    * Read about [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
-    * Get the boilerplate app completely up and running locally and at Heroku: [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
     * Think about a few options of datasets you want to collect for your final.
 
     * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?)
@@ -247,8 +248,13 @@ Resources:
 
 * Assignment
 
-    * Build your first basic API that renders JSON data
-    * Post your final project to your blog. Start tracking your dataset.
+    * Read about [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
+
+    * Get the boilerplate app completely up and running locally and at Heroku: [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
+
+    * Revise the boilerplate app to and build your first API to start collecting your data
+
+    * Post your final project idea to your blog. Start tracking your dataset.
 
 Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
 ----------------------------------------------------------------------------
