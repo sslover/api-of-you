@@ -226,11 +226,11 @@ Week 3 - Getting Started with Node.js
 
 * Set up node.js boilerplate together. Basics of a node/mongo/express app.
 
-* Assignment
+Assignment
 
     * Think about a few options of datasets you want to collect for your final.
 
-    * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?)
+    * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?). Post it to your blog and be prepared to briefly show and tell next class (3-4 min presentation).
 
 Week 4 - More Node.js (Routing, Models, Schemas, oh my!)
 --------------------------------------------------------
