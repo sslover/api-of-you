@@ -31,6 +31,7 @@ function setChartDefaults(){
 
 function buildDoughnutChart(data){
 
+	console.log(data);
 	// first, let's just render the overall counts on the page
 	document.getElementById('hillaryCount').innerHTML = data.overall.hillary + '%';
 	document.getElementById('trumpCount').innerHTML = data.overall.trump + '%';
@@ -44,20 +45,25 @@ function buildDoughnutChart(data){
 	    labels: [
 	        "Hillary Clinton",
 	        "Donald Trump",
+	        "Jill Stein",
 	    ],
 	    datasets: [
-	        {
-	            data: [data.overall.hillary, data.overall.trump],
+	    	{
+	    		data: [data.overall.hillary, data.overall.trump, data.overall.stein],
 	            backgroundColor: [
 	                "#179ee0",
 	                "#ff5d40",
+	                'green',
 	            ],
 	            hoverBackgroundColor: [
 	                "#1594d2",
 	                "#f0563a",
+	                'green',
 	            ]
-	        }]
-	};
+	    	}
+
+	    ]
+	}
 
 	// create chart options (this is optional)
 	// see list of options:
@@ -79,18 +85,14 @@ function buildDoughnutChart(data){
 	    }
 	}
 
-	// first, get the context of the canvas where we're drawing the chart
 	var ctx = document.getElementById("doughnutChart").getContext("2d");
 
-	// now, create the doughnut chart, passing in:
-	// 1. the type (required)
-	// 2. the data (required)
-	// 3. chart options (optional)
-	var myDoughnutChart = new Chart(ctx,{
-	    type: 'doughnut',
-	    data: data,
-	    options: options
-	});
+	var myDoughnutChart = new Chart(ctx, {
+		type: 'doughnut',
+		data: data,
+		options: options,
+	})
+
 }
 
 // see http://www.chartjs.org/docs/latest/charts/bar.html
@@ -103,17 +105,25 @@ function buildBarChart(data){
 		labelsArray.push(e.state)
 	});
 
+
+	console.log(labelsArray);
+
+
 	//let's pull out the hillary stats we need
 	var hillaryArray = [];
-	data.swingStates.forEach(function(e){
-		hillaryArray.push(e.hillary);
+	data.swingStates.forEach(function(currentElementofArray){
+		hillaryArray.push(currentElementofArray.hillary);
 	})
+
+	console.log(hillaryArray);
 
 	//let's pull out the trump stats we need
 	var trumpArray = [];
-	data.swingStates.forEach(function(e){
-		trumpArray.push(e.trump);
+	data.swingStates.forEach(function(currentElementofArray){
+		trumpArray.push(currentElementofArray.trump);
 	})
+
+	console.log(trumpArray);
 
 	// now, let's make the chart
 	// a chart can take 2 objects:

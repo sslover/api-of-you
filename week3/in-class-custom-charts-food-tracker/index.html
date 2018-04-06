@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Food Tracker</title>
+
+    <!-- Custom Font - Change 'Muli' to the font you want -->
+    <link href='https://fonts.googleapis.com/css?family=Muli:100,200,400,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS inside CSS folder -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div id="stats-holder">
+
+        <div class="stat">
+          <h5>Fruit Avg</h5>
+          <div class="numeric-stat">
+            <span id="fruitsAvg">-</span> / day
+            <div class="goal-subheading">Goal: 2 per day</div>
+            <div class="bar">
+              <div class="coloredBar" id="fruitsBar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h5>Veggie Avg</h5>
+          <div class="numeric-stat">
+            <span id="veggiesAvg">-</span> / day
+            <div class="goal-subheading">Goal: 2 per day</div>
+            <div class="bar">
+              <div class="coloredBar" id="veggiesBar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h5>Treat Avg</h5>
+          <div class="numeric-stat">
+            <span id="treatsAvg">-</span> / day
+            <div class="goal-subheading">Goal: 1 per day</div>
+            <div class="bar">
+              <div class="coloredBar" id="treatsBar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h5>Water Avg</h5>
+          <div class="numeric-stat">
+            <span id="waterAvg">-</span> / day
+            <div class="goal-subheading">Goal: 8 per day</div>
+            <div class="bar">
+              <div class="coloredBar" id="waterBar"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="day-holder">
+        <h1>My Food Days</h1>
+        <div id="day-cards">
+
+<!--           <div class="card">
+            <div class="left-holder">
+              <h5>Date</h5>
+              03/23/2018
+
+              <div class="chart-holder">
+                <div class="label">
+                  <div>Fruits</div>
+                  <div>2/2</div>
+                </div>
+                <div class="bar">
+                  <div class="coloredBar"></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="right-holder">
+                <div class="food-holder">2 fruits:<span> 🍎 🍎</span></div>
+                <div class="food-holder">2 veggies:<span> 🥕 🥗</span></div>
+                <div class="food-holder">9 waters:<span> 🚰 🚰 🚰 🚰 🚰 🚰 🚰 🚰</span></div>
+                <div class="food-holder">1 treat:<span> 🍫</span></div>
+            </div>
+          </div> -->
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+    <!-- JQuery script -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/main.js"></script>
+</html>

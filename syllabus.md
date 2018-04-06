@@ -65,7 +65,7 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Krizia](https://kernfern.wordpress.com/category/api-of-you/)
 * [Dani](http://blog.dani.kim)
 * [Till](https://apiofme.wordpress.com)
-* [Renee](https://www.reneevation.com/single-post/2018/03/29/MY-API)
+* [Renee](https://www.reneevation.com/itp)
 * [Simon](http://www.simonmarqvard.com/)
 
 Listserv
