@@ -218,6 +218,7 @@ Week 2 -- Going deeper into Web - Design 101, JS and Data (JS, p5js, chartjs)
 Week 3 - Getting Started with Node.js
 -------------------------------------
 * [Custom Chart Example](https://github.com/sslover/api-of-you/tree/master/week3/custom-charts-food-tracker)
+* [Chartjs Boilerplate](https://github.com/sslover/api-of-you/tree/master/chartjs-boilerplate)
 * [Chartjs Example](https://github.com/sslover/api-of-you/tree/master/week3/chart-example)
 * [Chartjs Example Expanded](https://github.com/sslover/api-of-you/tree/master/week3/chart-example-expanded)
 
