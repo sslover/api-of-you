@@ -226,7 +226,7 @@ Week 3 - Getting Started with Node.js
 
 * Set up node.js boilerplate together. Basics of a node/mongo/express app.
 
-Assignment
+* Assignment
 
     * Think about a few options of datasets you want to collect for your final.
 
