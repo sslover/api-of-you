@@ -240,9 +240,10 @@ BREAK
 
 * Deep dive into Nodejs/Mongo/Express examples (routing, models, schemas). Topics to cover:
     * The anatomy of a Nodejs/Mongo/Express app
-    * Routing (calbacks, req, res, responding with JSON vs html)
-    * Restful API concept (routes that follow a consistent pattern - create, retrieve one, retrieve all, update)
-    * Data Models/Schemas and Mongoose
+    * Routing (callbacks, req & res, responding with JSON vs html). [Routing in express.js](http://expressjs.com/en/guide/routing.html)
+    * [Restful API concept](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services) - routes that follow a consistent pattern - create, retrieve one, retrieve all, update, delete)
+    * [Data Models/Schemas and Mongoose](http://mongoosejs.com/docs/4.x/docs/guide.html)
+    * [Interacting with and querying your database](http://mongoosejs.com/docs/models.html)
     * Examples of the following routes:
         * Create data
         * Retrieve all data
@@ -259,7 +260,7 @@ Resources:
 
 * [Routing in express.js](http://expressjs.com/en/guide/routing.html)
 
-* [Mongoose Schemas](http://mongoosejs.com/docs/guide.html)
+* [Mongoose Schemas](http://mongoosejs.com/docs/4.x/docs/guide.html)
 
 
 * Assignment
