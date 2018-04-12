@@ -22,7 +22,7 @@ You will have 2 main projects to complete over the course of 6 weeks:
 
 1. **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Be prepared to discuss 1) why you chose to collect this data; 2) how you collected it; and 3) what you built, how you built it, and the design choices you made along the way.
 
-2. **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 7 days (ideally longer). Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your API publicly accessible (i.e. you must provide documentation or a guide to your API)
+2. **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 5-7 days. Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your API publicly accessible (i.e. you should provide documentation or a guide to your API).
 
 Objectives
 ---------------------
@@ -232,11 +232,25 @@ Week 3 - Getting Started with Node.js
 
     * **Project 1 (Midterm - Due in Week 4) - The Dashboard of You**. Collect a dataset from the ground up (in JSON) and then represent it via a dashboard medium of your choosing (Web page, P5.js, Illustration, Physical Installation, etc.). Start by doing a rough sketch or wireframe, and choosing your colors and typography. Be prepared to discuss 1) why you chose to collect this data and 2) what you built and the design choices you made along the way (e.g. why did you choose certain colors/type?). Post it to your blog and be prepared to briefly show and tell next class (3-4 min presentation).
 
-Week 4 - More Node.js (Routing, Models, Schemas, oh my!)
+Week 4 - Deep dive into Nodejs/Mongo/Express (Routing, Models, Schemas)
 --------------------------------------------------------
-* Lightning Round - Present Project 1 and let us know what you are thinking for your final! Which dataset will you track and why? What are you thinking of building?
-* Deep dive into Nodejs/Mongo/Express examples (routing, models, schemas)
-* AJAX example of consuming your own API
+* Lightning Round - Present Project 1 and let us know what you are thinking for your final! Which dataset will you track and why? What are you thinking of building? (4 minute presentations max)
+
+BREAK
+
+* Deep dive into Nodejs/Mongo/Express examples (routing, models, schemas). Topics to cover:
+    * The anatomy of a Nodejs/Mongo/Express app
+    * Routing (calbacks, req, res, responding with JSON vs html)
+    * Restful API concept (routes that follow a consistent pattern - create, retrieve one, retrieve all, update)
+    * Data Models/Schemas and Mongoose
+    * Examples of the following routes:
+        * Create data
+        * Retrieve all data
+        * Retrieve one data
+        * Update data
+        * Delete data
+        * AJAX example of consuming your own API to display it
+        * HTML/Handlebars example of rendering data
 
 Resources:
 * [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
@@ -252,9 +266,9 @@ Resources:
 
     * Read about [RESTful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services)
 
-    * Get the boilerplate app completely up and running locally and at Heroku: [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
+    * Get the revised boilerplate app completely up and running locally and at Heroku: [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
 
-    * Revise the boilerplate app to and build your first API to start collecting your data
+    * Revise the boilerplate app. Start by creating/updating your own data model. Then, update all the routes to work with your data model. You should be able to 1) create; 2) retrieve; 3) update; 4) delete.
 
     * Post your final project idea to your blog. Start tracking your dataset.
 
@@ -267,7 +281,7 @@ Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
 
 * Assignment
 
-    * **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 7 days (ideally longer). Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your API publicly accessible (i.e. you must provide documentation or a guide to your API)
+    * **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 5-7 days. Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your API publicly accessible (i.e. you should provide documentation or a guide to your API)
 
 Week 6
 -------
