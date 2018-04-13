@@ -61,12 +61,13 @@ Email slover@nyu.edu with a link to you blog. I will add it to a list here:
 * [Jesse](https://jessesimpson.tumblr.com/apiofyou)
 * [Kellee](http://www.kellee.tech/category/api-of-you/)
 * [Simon](http://www.simonmarqvard.com/2018/03/29/creating-your-own-api/)
-* [Zahra](https://wp.nyu.edu/zohreh/category/api-of-you/)
+* [Zahra]https://wp.nyu.edu/zahra_k_itp/api-of-you/
 * [Krizia](https://kernfern.wordpress.com/category/api-of-you/)
 * [Dani](http://blog.dani.kim)
 * [Till](https://apiofme.wordpress.com)
 * [Renee](https://www.reneevation.com/itp)
 * [Simon](http://www.simonmarqvard.com/)
+* [Zohreh](https://wp.nyu.edu/zohreh/category/api-of-you/)
 
 Listserv
 --------
@@ -269,9 +270,9 @@ Resources:
 
     * Get the revised boilerplate app completely up and running locally and at Heroku: [Node.js / Express.js / MongoDb (+Mongoose) Boilerplate](https://github.com/sslover/node-express-api-boilerplate)
 
-    * Revise the boilerplate app. Start by creating/updating your own data model. Then, update all the routes to work with your data model. You should be able to 1) create; 2) retrieve; 3) update; 4) delete.
+    * Revise the boilerplate app by creating/updating your own data model. See [Mongoose Schemas](http://mongoosejs.com/docs/4.x/docs/guide.html)
 
-    * Post your final project idea to your blog. Start tracking your dataset.
+    * Post your final project idea to your blog.
 
 Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
 ----------------------------------------------------------------------------
