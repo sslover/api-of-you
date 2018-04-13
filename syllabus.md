@@ -263,6 +263,7 @@ Resources:
 
 * [Mongoose Schemas](http://mongoosejs.com/docs/4.x/docs/guide.html)
 
+* [Week 4 in-class example](https://github.com/sslover/api-of-you/tree/master/week4/in-class-prof-example-node-express-api-boilerplate)
 
 * Assignment
 
