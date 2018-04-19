@@ -275,16 +275,23 @@ Resources:
 
     * Post your final project idea to your blog.
 
-Week 5 - More Node.js (TBD: NPM libraries, S3 file storage, SMS integration)
+Week 5 - Deep dive into Nodejs/Mongo/Express (Routing, Models, Schemas)
 ----------------------------------------------------------------------------
 
-* Continue covering Node/Mongo/Express
-* NPM module example
-* SMS example
+* Continue covering Node/Mongo/Express:
+    * App set-up
+    * Model/Schema review
+    * Core CRUD routes (Create, Retrieve, Update, Delete)
+    * req.body, req.params.id, req.query
+    * Core MongoDB/Mongoose methods (save, find, findById, findByIdAndUpdate, findByIdAndRemove)
+    * Rendering data on a page using front-end JS
+    * Rendering data on a page using an html template
+    * Deploying your app to Heroku and to Github
+    * NPM module example - Geocoding
 
 * Assignment
 
-    * **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 5-7 days. Your final project will be to 1) design a digital or physical interface that brings your data to life in a way that you find personally meaningful and 2) to make your API publicly accessible (i.e. you should provide documentation or a guide to your API)
+    * **Project 2 (Final - Due in Week 6) - Designing Around Your Own Data**. Choose a dataset that you want to better understand and bring to life (it could be your own or data from a community around you). Using your Node/Mongo/Express application, track that dataset over the course of at least 5-7 days. Your final project will be to design a digital or physical interface that brings your data to life in a way that you find personally meaningful. You must document 1) how you created/collected your data and 2) what you chose to build around that data.
 
 Week 6
 -------
